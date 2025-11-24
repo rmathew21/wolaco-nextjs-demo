@@ -1,8 +1,10 @@
+// import { Navbar } from "@/components/Navbar";
 import { WolacoFeatureSection } from "@/components/WolacoFeatureSection";
 
 export default function Home() {
   return (
     <main>
+      {/* <Navbar /> */}
       <WolacoFeatureSection />
     </main>
   )
