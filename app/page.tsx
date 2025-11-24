@@ -1,12 +1,16 @@
 // import { Navbar } from "@/components/Navbar";
 import { WolacoFeatureSection } from "@/components/WolacoFeatureSection";
+import { HeroSection } from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <main>
-      {/* <Navbar /> */}
+    <div className="min-h-screen bg-slate-950 text-slate-50">
+      <main>
+      <HeroSection />
       <WolacoFeatureSection />
     </main>
+    </div>
+    
   )
 }
 
